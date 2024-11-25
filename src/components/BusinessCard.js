@@ -1,8 +1,10 @@
 import React from "react";
 import '../BusinessCard.css'; // Import styling
 import profileImage from '../image/IMG_1128.jpg';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 
-import '@fortawesome/fontawesome-free/css/all.css'; // Import Font Awesome
 
 const BusinessCard = () => {
   return (
@@ -20,7 +22,7 @@ const BusinessCard = () => {
       <div className="buttons">
         {/* Email Button */}
         <a href="mailto:xhefri.murati@outlook.com" className="email-button">
-            <i className="fas fa-envelope"></i> Email
+          <FontAwesomeIcon icon={faEnvelope} /> Email
         </a>
 
 
@@ -31,7 +33,7 @@ const BusinessCard = () => {
           rel="noopener noreferrer"
           className="linkedin-button"
         >
-          <i className="fab fa-linkedin"></i> LinkedIn
+          <FontAwesomeIcon icon={faLinkedin} /> LinkedIn
         </a>
       </div>
 
@@ -61,7 +63,7 @@ const BusinessCard = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <i className="fab fa-github github-icon"></i>
+          <FontAwesomeIcon icon={faGithub} />
         </a>
       </div>
     </div>
