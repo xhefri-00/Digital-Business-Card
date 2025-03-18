@@ -1,6 +1,6 @@
 import React from "react";
 import '../BusinessCard.css'; // Import styling
-import profileImage from '../image/IMG_1128.jpg';
+import profileImage from '../image/12.jpeg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
@@ -16,7 +16,7 @@ const BusinessCard = () => {
 
       {/* Name and Title */}
       <h1>Xhefri Murati</h1>
-      <h2>Fullstack Developer</h2>
+      <h2>Full-Stack Engineer</h2>
 
       {/* Contact Buttons */}
       <div className="buttons">
@@ -41,9 +41,12 @@ const BusinessCard = () => {
       <div>
         <h3 className="AboutMe">About Me</h3>
         <p className="section">
-          I am an enthusiastic Software Developer with proficient skills in Python, 
-          JavaScript, React, OOP, SQL, and HTML. I excel at simplifying
-          complex processes, automating tasks, and delivering user-friendly applications.
+          Junior Full-Stack Software Engineer with a diverse background in fitness economy and sales and unique job experiences that taught me 
+          adaptability and problem-solving. 
+        </p>
+        <p className="section">
+          I excel in skills like Python, 
+          JavaScript, React, Flask, OOP, SQL, HTML, CSS.
         </p>
       </div>
 
@@ -51,8 +54,8 @@ const BusinessCard = () => {
       <div className="section">
         <h3 className="Interests">Interests</h3>
         <p>
-          Music. Internet geek. Working out. Music. Entrepreneur. 
-          Traveling lover. Professional coffee enjoyer.
+          Music, Working Out, Reading, Art, Cooking,
+          Sightseeing, Coffee Tasting.
         </p>
       </div>
 
